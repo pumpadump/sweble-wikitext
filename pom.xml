@@ -36,6 +36,7 @@
     <module>swc-example-basic</module>
     <module>swc-example-serialization</module>
     <module>swc-example-xpath</module>
+    <module>swc-wom</module>
   </modules>
 
   <!-- ==[ Properties ]===================================================== -->
@@ -102,6 +103,22 @@
       <dependency>
         <groupId>org.sweble.wikitext</groupId>
         <artifactId>swc-parser-lazy</artifactId>
+        <!-- Version is given directly so the release plugin can see it -->
+        <version>2.0.0-alpha-1-SNAPSHOT</version>
+      </dependency>
+
+      <!-- Sweble Wikitext Components - Sweble Wikitext Engine -->
+      <dependency>
+        <groupId>org.sweble.wikitext</groupId>
+        <artifactId>swc-engine</artifactId>
+        <!-- Version is given directly so the release plugin can see it -->
+        <version>2.0.0-alpha-1-SNAPSHOT</version>
+      </dependency>
+
+      <!-- Sweble WOM -->
+      <dependency>
+        <groupId>org.sweble.wom</groupId>
+        <artifactId>sweble-wom</artifactId>
         <!-- Version is given directly so the release plugin can see it -->
         <version>2.0.0-alpha-1-SNAPSHOT</version>
       </dependency>
